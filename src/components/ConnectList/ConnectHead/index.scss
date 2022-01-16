@@ -1,0 +1,23 @@
+.connect-head {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: .2px solid gray;
+
+    .connect-head-tag {
+        width: 25%;
+        height: 60px;
+        padding: 0 0;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .active {
+        color: #3399FF ;
+        border-bottom: 4px solid #3399FF ;
+    }
+}

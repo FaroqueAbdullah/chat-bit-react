@@ -1,0 +1,113 @@
+.message-box-body {
+    width: 100%;
+    height: calc(100% - 150px);
+    overflow-y: scroll;
+
+    .loader-container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .chat-date {
+        display: flex;
+        font-size: 12px;
+        color: gray;
+        margin: 10px 20px;
+        align-items: center;
+
+        .chat-liner {
+            width: calc((100% - 150px) / 2);
+            height: 0;
+            border-bottom: .5px solid lightgray;
+        }
+
+        .chat-date-text {
+            width: 150px;
+        }
+    }
+
+    .chat-status {
+        color: green;
+        font-size: 14px;
+        margin: 15px 0;
+    }
+
+    .chat-init {
+        display: flex;
+        font-size: 12px;
+        color: gray;
+        margin: 10px 20px;
+        align-items: center;
+
+        .chat-liner {
+            width: calc((100% - 90px) / 2);
+            height: 0;
+            border-bottom: .5px solid lightgray;
+        }
+
+        .chat-init-text {
+            width: 90px;
+        }
+    }
+
+    .msg-container {
+        width: 100%;
+        display: flex;
+
+        .msg {
+            margin: 2px 25px;
+            padding: 5px 10px;
+            font-size: 14px;
+            display: flex;
+        }
+    
+        .left-msg-color {
+            justify-content: flex-start;
+            background: #fff;
+            border-bottom-right-radius: 25px 25px;
+            border-top-right-radius: 25px 25px;
+        }
+    
+        .right-msg-color {
+            justify-content: flex-end;
+            color: #fff;
+            background: #3399FF;
+            border-bottom-left-radius: 25px 25px;
+            border-top-left-radius: 25px 25px;
+        }
+
+        .top-right-border {
+            border-top-right-radius: 25px 25px;
+        }
+
+        .top-left-border {
+            border-top-left-radius: 25px 25px;
+        }
+
+        .bottom-right-border {
+            border-bottom-right-radius: 25px 25px;
+        }
+
+        .bottom-left-border {
+            border-bottom-left-radius: 25px 25px;
+        }
+    }
+
+    .left-msg {
+        justify-content: flex-start;
+    }
+
+    .right-msg {
+        justify-content: flex-end;
+    }
+
+    .profile-icon-show {
+        font-size: 20px;
+        color: gray;
+        float:right; 
+        clear:right;
+    }
+}

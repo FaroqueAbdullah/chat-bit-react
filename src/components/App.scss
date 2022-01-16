@@ -1,0 +1,91 @@
+* { 
+  margin:0; 
+  padding:0; 
+  box-sizing:border-box; 
+}
+
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+ .chatbox-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    border-top: 5px solid #000;
+
+    .chatbox-connects {
+      width: 20%;
+    }
+
+    .chatbox-messeges {
+      width: 60%;
+    }
+
+    .chatbox-activities {
+      width: 20%;
+    }
+
+    @media (max-width: 1450px) {
+      .chatbox-connects {
+        width: 30%;
+      }
+    
+      .chatbox-messeges {
+        width: 50%;
+      }
+    
+      .chatbox-activities {
+        width: 20%;
+      }
+    }
+
+    @media (max-width: 1050px) {
+      .chatbox-connects {
+        width: 40%;
+      }
+    
+      .chatbox-messeges {
+        width: 60%;
+      }
+    
+      .chatbox-activities {
+        display: none;
+      }
+    }
+
+    @media (max-width: 870px) {
+      .chatbox-connects {
+        width: 50%;
+      }
+    
+      .chatbox-messeges {
+        width: 50%;
+      }
+    
+      .chatbox-activities {
+        display: none;
+      }
+    }
+
+    @media (max-width: 550px) {
+      .chatbox-connects {
+        width: 100%;
+      }
+    
+      .chatbox-messeges {
+        display: none;
+      }
+    
+      .chatbox-activities {
+        display: none;
+      }
+    }
+  }
+  
+}
+
+
+
+

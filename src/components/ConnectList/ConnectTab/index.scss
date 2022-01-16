@@ -1,0 +1,66 @@
+.connect-tab {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.2px solid #d6dbe7;
+    border-right: 0.2px solid #d6dbe7;
+    background: #E6EBF1;
+    cursor: pointer;
+
+    .connect-tab-image {
+        width: 15%;
+        height: 50px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 10px;
+
+        .fa-laptop {
+            font-size: 28px;
+            color: gray;
+        }
+
+        .active-status {
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            border-radius: 50%;
+            margin-left: 35px;
+            margin-bottom: 35px;
+        }
+
+        .active-online {
+            background-color: #0A9931;
+        }
+
+        .active-engaged {
+            background-color: #B40E0E;
+        }
+
+        .active-queued {
+            background-color: #0A44A4;
+        }
+
+        .active-agent {
+            background-color: #fff;
+            border: 1px solid gray;
+        }
+    }
+
+    .connect-tab-data {
+        width: 65%;
+        text-align: left;
+
+        .fa-pencil {
+            color: gray;
+        }
+    }
+
+    .connect-tab-country {
+        width: 15%;
+    }
+}
